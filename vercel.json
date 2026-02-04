@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "frontend/build",
+        "buildCommand": "cd frontend && npm install --legacy-peer-deps && npm run build"
+      }
+    },
+    {
+      "src": "backend/server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend/build/index.html"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://your_username:your_password@cluster.mongodb.net/cognixai",
+    "CORS_ORIGIN": "https://cognixai.vercel.app"
+  }
+}
