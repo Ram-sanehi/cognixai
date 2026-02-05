@@ -6,7 +6,7 @@ const ContactForm = () => {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
-    phone: '',
+    phone: '8468083651',
     companyName: '',
     serviceInterested: '',
     message: ''
@@ -23,7 +23,7 @@ const ContactForm = () => {
     try {
       await axios.post('http://localhost:5000/api/contact', formData);
       setStatus({ type: 'success', message: 'Thanks! We will respond shortly.' });
-      setFormData({ fullName: '', email: '', phone: '', companyName: '', serviceInterested: '', message: '' });
+      setFormData({ fullName: '', email: '', phone: '8468083651', companyName: '', serviceInterested: '', message: '' });
     } catch (error) {
       setStatus({ type: 'error', message: 'Something went wrong. Please try again.' });
     }

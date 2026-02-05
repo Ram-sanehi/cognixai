@@ -217,7 +217,7 @@ const PrivacyPolicy = () => {
                 <div className="space-y-2">
                   <p><strong className="text-purple-300">Company:</strong> Cognix AI</p>
                   <p><strong className="text-purple-300">Email:</strong> cognixpvtltb@gmail.com</p>
-                  <p><strong className="text-purple-300">Phone:</strong> +91 7991955775</p>
+                  <p><strong className="text-purple-300">Phone:</strong> +91 8468083651</p>
                   <p><strong className="text-purple-300">Address:</strong> Noida, Uttar Pradesh, India</p>
                 </div>
               </div>

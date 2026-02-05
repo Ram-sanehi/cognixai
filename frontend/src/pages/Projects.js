@@ -833,7 +833,6 @@ const Projects = () => {
               onClick={() => window.location.href = '/contact'}
               className="inline-flex items-center gap-3 px-8 py-4 bg-white/10 text-white font-bold rounded-2xl border border-white/20 backdrop-blur-md hover:bg-white/20 transition-all duration-300"
             >
-            >
               <span>Schedule Consultation</span>
               <Calendar className="w-5 h-5" />
             </motion.button>

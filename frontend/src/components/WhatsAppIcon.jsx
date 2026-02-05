@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const WhatsAppIcon = ({ phoneNumber = "917991955775", message = "Hello! I'm interested in Cognix AI's services including AI Development, SEO/AEO/GEO, Web Development, App Development, Digital Marketing & Business Automation. Please share more details." }) => {
+const WhatsAppIcon = ({ phoneNumber = "8468083651", message = "Hello! I'm interested in Cognix AI's services including AI Development, SEO/AEO/GEO, Web Development, App Development, Digital Marketing & Business Automation. Please share more details." }) => {
   const handleWhatsAppClick = () => {
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

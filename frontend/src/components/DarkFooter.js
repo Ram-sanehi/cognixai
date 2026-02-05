@@ -258,7 +258,7 @@ const DarkFooter = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-500 text-sm">
-              © 2026 Cognix AI. All Rights Reserved.
+              © 2023 Cognix AI. All Rights Reserved.
             </div>
             
             <div className="flex items-center gap-6 text-sm">
