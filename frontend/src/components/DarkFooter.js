@@ -125,7 +125,7 @@ const DarkFooter = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors duration-300">
                   <Phone className="w-4 h-4" />
-                  <span className="text-sm">+91 7991955775</span>
+                  <span className="text-sm">+91 8468083651</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors duration-300">
                   <MapPin className="w-4 h-4" />
