@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "cognix-ai-frontend",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "frontend/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/build/index.html"
+    }
+  ],
+  "buildCommand": "npm run vercel-build",
+  "outputDirectory": "frontend/build"
+}
