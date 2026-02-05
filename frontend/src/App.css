@@ -1,0 +1,349 @@
+.App {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+main {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+/* Article Content Styles */
+.article-content {
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+
+.article-content h2 {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #374151;
+  padding-bottom: 0.5rem;
+}
+
+.article-content h3 {
+  color: #f3f4f6;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.article-content h4 {
+  color: #f9fafb;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-content p {
+  margin-bottom: 1rem;
+  color: #d1d5db;
+}
+
+.article-content ul, .article-content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.5rem;
+  color: #d1d5db;
+}
+
+.article-content li strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.article-content blockquote {
+  border-left: 4px solid #8b5cf6;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  font-style: italic;
+  color: #e5e7eb;
+}
+
+.article-content blockquote p {
+  margin: 0;
+}
+
+.article-content code {
+  background-color: #374151;
+  color: #f59e0b;
+  padding: 0.125rem 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.article-content pre {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.article-content a {
+  color: #8b5cf6;
+  text-decoration: underline;
+}
+
+.article-content a:hover {
+  color: #a78bfa;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 640px) {
+  /* Mobile Hero Sections */
+  .hero-title {
+    font-size: 2rem !important;
+    line-height: 1.1 !important;
+    padding: 0 1rem !important;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem !important;
+    padding: 0 1rem !important;
+  }
+  
+  /* Mobile Form Inputs */
+  .mobile-form-input {
+    padding-left: 2.5rem !important;
+    padding-right: 1rem !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.75rem !important;
+  }
+  
+  /* Mobile Form Icons */
+  .mobile-form-icon {
+    top: 0.75rem !important;
+    left: 0.75rem !important;
+    font-size: 1rem !important;
+  }
+  
+  /* Mobile Buttons */
+  .mobile-btn {
+    padding: 0.75rem 1.5rem !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.75rem !important;
+  }
+  
+  /* Mobile Cards */
+  .mobile-card {
+    padding: 1rem !important;
+    border-radius: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  /* Mobile Grid Adjustments */
+  .mobile-grid-1 {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  /* Mobile Text Sizes */
+  .mobile-text-sm {
+    font-size: 0.75rem !important;
+  }
+  
+  .mobile-text-base {
+    font-size: 0.875rem !important;
+  }
+  
+  .mobile-text-lg {
+    font-size: 1rem !important;
+  }
+  
+  .mobile-text-xl {
+    font-size: 1.125rem !important;
+  }
+  
+  /* Mobile Spacing */
+  .mobile-py-8 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .mobile-py-12 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .mobile-px-4 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Mobile Contact Form Specific */
+  .contact-form-mobile {
+    padding: 1rem !important;
+    border-radius: 1rem !important;
+  }
+  
+  .contact-form-mobile h2 {
+    font-size: 1.25rem !important;
+  }
+  
+  .contact-form-mobile .form-input {
+    padding-left: 2.5rem !important;
+    padding-right: 1rem !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.75rem !important;
+  }
+  
+  .contact-form-mobile .form-icon {
+    top: 0.75rem !important;
+    left: 0.75rem !important;
+    font-size: 1rem !important;
+  }
+  
+  /* Mobile Services Grid */
+  .services-grid-mobile {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* Mobile About Page */
+  .about-founders-mobile {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  
+  /* Mobile Projects Grid */
+  .projects-grid-mobile {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* Mobile Blog Grid */
+  .blog-grid-mobile {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* Mobile Navigation Improvements */
+  .mobile-nav-item {
+    padding: 0.75rem 1rem !important;
+    font-size: 1rem !important;
+    border-radius: 0.5rem !important;
+  }
+  
+  /* Mobile Footer */
+  .footer-mobile {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+    text-align: center !important;
+  }
+  
+  /* Mobile Testimonials */
+  .testimonials-mobile {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* Mobile Stats */
+  .stats-mobile {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
+  }
+  
+  /* Mobile Modal */
+  .modal-mobile {
+    margin: 1rem !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+  }
+  
+  .modal-mobile .modal-content {
+    padding: 1rem !important;
+    font-size: 0.875rem !important;
+  }
+  
+  /* Mobile Animations - Reduce motion for better performance */
+  .mobile-reduce-motion * {
+    animation-duration: 0.3s !important;
+    transition-duration: 0.3s !important;
+  }
+}
+
+/* Tablet Responsive Styles */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .tablet-grid-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.5rem !important;
+  }
+  
+  .tablet-text-adjust {
+    font-size: 1.125rem !important;
+  }
+  
+  .tablet-padding {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets */
+  button, .btn, a[role="button"] {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+  
+  /* Remove hover effects on touch devices */
+  .hover-effect:hover {
+    transform: none !important;
+  }
+  
+  /* Improve form inputs for touch */
+  input, textarea, select {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+  }
+}
+
+/* High DPI Display Optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .high-dpi-text {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Landscape Mobile Optimizations */
+@media (max-width: 896px) and (orientation: landscape) {
+  .landscape-mobile-hero {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  
+  .landscape-mobile-hero h1 {
+    font-size: 2rem !important;
+  }
+  
+  .landscape-mobile-nav {
+    position: relative !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-friendly {
+    background: white !important;
+    color: black !important;
+  }
+}
